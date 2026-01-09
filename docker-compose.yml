@@ -1,0 +1,10 @@
+services:
+  stats:
+    build: .
+    ports:
+      - "127.0.0.1:9000:9000"
+    env_file:
+      - .env
+    restart: always
+    network_mode: bridge
+
