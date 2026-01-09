@@ -7,6 +7,6 @@ COPY . .
 RUN npm install
 RUN npm install express
 
-EXPOSE 9000
+EXPOSE 9001
 
 CMD ["node", "express.js"]
